@@ -4,9 +4,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
+import rootReducer from './reducers/index';
+import { createBrowserHistory } from 'history';
+import { fetchBooks } from './actions/books/book.actions';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { composeWithDevTools } from 'redux-devtools-extension';
+
+const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));
+
+
+export const history = createBrowserHistory({ forceRefresh: true });
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <Provider store={store}>
+    <Router>
+      <App />
+    </Router>
+  </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

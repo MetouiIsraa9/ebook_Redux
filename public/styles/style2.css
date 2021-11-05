@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+.sidebar{
+    height: 100%;   
+    background: #f2f2f2;  
+}
+
+.logo {
+    font-size: 20px;
+    color: #1e1e27;
+    text-transform: uppercase;
+         
+   
+}
+.logo span{    
+    color:#8A2BE2
+}
+.logo a{
+    font-size: 20px;
+    color: #1e1e27;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav-link li{
+    background: #f2f2f2 !important;
+}
+.nav_likns{
+    display: block;
+    float: left;
+    color: #1e1e27; 
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav_likns   a:hover{
+    color: #b5aec4;
+}
+.nav_likns li i{
+    margin-right: 10px;
+}
+
+/* home section */
+.home-section{
+    
+    height: 100%;
+    padding-left: 15px;
+}
+.navbar{    
+    width: auto;
+        
+    padding-left: 20px;
+    padding-right:0px;  
+ 
+   
+}
+.navbar_menu li{
+    display:inline-flex;
+}
+.navbar_menu li {
+    display:inline-flex ;
+    color: #1e1e27;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    color:#1e1e27;
+    transition: color 0.3s ease;   
+   
+}
+.navbar_menu li:hover{
+    color: #b5aec4;
+}
+
+.navbar .dashboard {
+    font-size:16px ;
+    float: left;
+    margin-left: 20px;
+}
+.navbar .admin_info{
+    font-size:16px ;
+    float: right;
+    margin-left: 20px;
+   
+}
+.navbar .icon{
+    font-size:16px;
+    margin: 10px;
+}
+.navbar .search{
+    
+    width: 550px;
+    position: relative;
+    height: 50px;
+}
+.navbar .search input{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    border-radius: 1px;
+    padding: 0 15px;
+    font-size: 14;
+    height: 35px;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+}
+input:focus{
+    outline: none;
+}
+
+.home-section .home-content{
+   position: relative; 
+}
+
+.home-content .overview-boxes{
+    display: flex;
+    width: 100%;
+    
+}
+.home-content .overview-boxes .box{
+    display: flex;
+    align-items: center;
+    padding:15px 14px;
+    background:#f2f2f2 ;
+    margin-left: 10px;
+    width: calc(100% / 2 - 15px);
+}
+.home-content .overview-boxes .box_topic{
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-content .overview-boxes .number{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -5px;
+    display: inline-block;
+}
+.overview-boxes .indicator{
+    display: flex;
+    align-items: center;
+}
+.home-content .overview-boxes .indicator i{
+    height: 20px;
+    width: 20px;
+    background: #8FDACB;
+    color:#fff;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.home-content .overview-boxes .indicator .text{
+    font-size: 12px;    
+}
+
+.book-boxs {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.book-boxs .ticket_table{
+    display:inline-flex;
+    margin-bottom: 15px;
+}
+
+.card-title{
+    font-size: 18px;
+    color: #1e1e27;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.add_book_button{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.table .btn-group{
+    margin-left: 10px;
+}
+/*   login */
+
+*{
+    box-sizing: border-box;
+}
+.body-login{
+    
+    height:100vh ;
+    width: 100vw;
+    overflow: hidden;
+    font-family:'Poppins',sans-serif;
+    font-weight: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1b1b1b;
+    background: #ffffff;
+    
+}
+.login-div{
+    width: 350px;
+    height: 400px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #f2f2f2;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+    
+}
+
+
+.logo-login {
+    font-size: 25px;
+    color: #1e1e27;
+    font-weight: 700;
+    text-transform: uppercase;
+   margin-bottom: 35px;
+}
+.logo-login span{    
+    color:#8A2BE2
+}
+.margin-left{
+    margin-left: 10px !important;
+}
+.style_btn_login{
+    text-transform: uppercase;  
+    font-family:'Poppins',sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card-margin{
+    margin-top : 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+.card-backgroud{
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;    
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;    
+}
